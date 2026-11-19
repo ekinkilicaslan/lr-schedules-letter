@@ -1,0 +1,32 @@
+﻿Ablasyon grubu,Ayar,Test doğruluğu (%),Genelleme aralığı (puan),Iraksayan koşu
+"Isınma süresi (Isınma+kosinüs, η=0,1)",warmup_epochs=0,96.93 ± 0.14,2.89 ± 0.14,0/3
+"Isınma süresi (Isınma+kosinüs, η=0,1)",warmup_epochs=1,96.88 ± 0.10,2.94 ± 0.11,0/3
+"Isınma süresi (Isınma+kosinüs, η=0,1)",warmup_epochs=3,97.05 ± 0.08,2.78 ± 0.07,0/3
+"Isınma süresi (Isınma+kosinüs, η=0,1)",warmup_epochs=5,96.98 ± 0.18,2.85 ± 0.18,0/3
+"Isınma süresi (Isınma+kosinüs, η=0,1)",warmup_epochs=10,97.03 ± 0.08,2.80 ± 0.05,0/3
+"Isınma süresi (Isınma+kosinüs, η=0,1)",warmup_epochs=20,96.88 ± 0.06,2.95 ± 0.06,0/3
+"Isınma süresi (Isınma+kosinüs, η=0,4)",warmup_epochs=0,97.26 ± 0.06,2.52 ± 0.08,0/3
+"Isınma süresi (Isınma+kosinüs, η=0,4)",warmup_epochs=1,97.38 ± 0.13,2.46 ± 0.12,0/3
+"Isınma süresi (Isınma+kosinüs, η=0,4)",warmup_epochs=3,97.26 ± 0.05,2.55 ± 0.02,0/3
+"Isınma süresi (Isınma+kosinüs, η=0,4)",warmup_epochs=5,97.46 ± 0.10,2.39 ± 0.12,0/3
+"Isınma süresi (Isınma+kosinüs, η=0,4)",warmup_epochs=10,97.38 ± 0.07,2.47 ± 0.10,0/3
+CLR yarım döngü (CLR-üçgen2),step_epochs=1,96.17 ± 0.10,3.21 ± 0.15,0/3
+CLR yarım döngü (CLR-üçgen2),step_epochs=2.5,96.40 ± 0.09,3.18 ± 0.10,0/3
+CLR yarım döngü (CLR-üçgen2),step_epochs=5,96.76 ± 0.08,2.97 ± 0.08,0/3
+CLR yarım döngü (CLR-üçgen2),step_epochs=10,96.86 ± 0.17,2.91 ± 0.14,0/3
+CLR yarım döngü (CLR-üçgen2),step_epochs=15,96.91 ± 0.10,2.89 ± 0.10,0/3
+CLR alt sınır η_min/η_maks (CLR-üçgen2),base_frac=0.01,96.48 ± 0.10,3.15 ± 0.14,0/3
+CLR alt sınır η_min/η_maks (CLR-üçgen2),base_frac=0.1,96.76 ± 0.08,2.97 ± 0.08,0/3
+CLR alt sınır η_min/η_maks (CLR-üçgen2),base_frac=0.3,96.81 ± 0.04,2.87 ± 0.10,0/3
+1cycle yükselme oranı pct_start,pct_start=0.1,97.02 ± 0.13,2.81 ± 0.13,0/3
+1cycle yükselme oranı pct_start,pct_start=0.2,96.92 ± 0.14,2.90 ± 0.14,0/3
+1cycle yükselme oranı pct_start,pct_start=0.3,96.94 ± 0.15,2.89 ± 0.15,0/3
+1cycle yükselme oranı pct_start,pct_start=0.45,96.98 ± 0.20,2.86 ± 0.20,0/3
+Optimizör: AdamW (η=3·10⁻³),Sabit,96.62 ± 1.25,2.74 ± 0.29,0/3
+Optimizör: AdamW (η=3·10⁻³),Kosinüs,97.08 ± 0.06,2.92 ± 0.06,0/3
+Optimizör: AdamW (η=3·10⁻³),Isınma+kosinüs,97.04 ± 0.09,2.96 ± 0.09,0/3
+Optimizör: AdamW (η=3·10⁻³),Tek döngü (1cycle),96.90 ± 0.10,3.10 ± 0.10,0/3
+Kısa bütçe: 20 epok,Sabit,95.91 ± 0.40,2.88 ± 0.21,0/3
+Kısa bütçe: 20 epok,Kosinüs,96.49 ± 0.08,2.98 ± 0.09,0/3
+Kısa bütçe: 20 epok,CLR-üçgen2,96.46 ± 0.19,2.99 ± 0.21,0/3
+Kısa bütçe: 20 epok,Tek döngü (1cycle),96.62 ± 0.20,2.95 ± 0.17,0/3

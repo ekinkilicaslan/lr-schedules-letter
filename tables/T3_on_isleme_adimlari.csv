@@ -1,0 +1,7 @@
+﻿Adım,İşlem,Ayrıntı,Uygulandığı küme
+1,Okuma ve tip dönüşümü,"CSV → float32 öznitelik, harf → 0–25 tamsayı etiket",Tüm veri
+2,Kalite denetimi,Eksik değer (0) ve aralık (0–15) kontrolü,Tüm veri
+3,Kanonik test ayrımı,Son 4.000 örnek test olarak ayrıldı (Frey ve Slate protokolü),Tüm veri
+4,Doğrulama ayrımı,İlk 16.000 örnekten tabakalı 2.000 örnek (random_state=0),Eğitim+doğrulama
+5,Standartlaştırma,z = (x − μ)/σ; μ ve σ yalnızca 14.000 eğitim örneğinden,Tüm kümeler
+6,Tensör ve cihaz,"PyTorch tensörü, GPU belleğinde; mini-yığın 128, her epok yeniden karıştırma",Eğitim

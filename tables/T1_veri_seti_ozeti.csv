@@ -1,0 +1,11 @@
+﻿Özellik,Değer
+Toplam örnek,20.000
+Öznitelik sayısı,"16 (tam sayı, 0–15)"
+Sınıf sayısı,26 (A–Z)
+Eksik değer,0
+Yinelenen satır,1332
+En küçük / en büyük sınıf,H (734) / U (813)
+Sınıf dengesizlik oranı (maks/min),1.108
+Eğitim / doğrulama / test,14.000 / 2.000 / 4.000
+Bölünme kuralı,"İlk 16.000 → eğitim+doğrulama (tabakalı 2.000 doğrulama), son 4.000 → test [Frey ve Slate]"
+"Mutlak |r| > 0,7 olan öznitelik çifti",4

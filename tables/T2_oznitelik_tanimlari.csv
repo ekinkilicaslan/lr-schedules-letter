@@ -1,0 +1,17 @@
+﻿#,Öznitelik,Tanım,Aralık,Ortalama,Std. sapma,Çarpıklık
+1,x-box,Sınırlayıcı kutunun yatay konumu,0–15,4.02,1.91,0.72
+2,y-box,Sınırlayıcı kutunun dikey konumu,0–15,7.04,3.30,-0.23
+3,width,Kutu genişliği,0–15,5.12,2.01,0.23
+4,high,Kutu yüksekliği,0–15,5.37,2.26,-0.28
+5,onpix,Toplam açık (siyah) piksel sayısı,0–15,3.51,2.19,0.94
+6,x-bar,Açık piksellerin ortalama x konumu,0–15,6.90,2.03,-0.31
+7,y-bar,Açık piksellerin ortalama y konumu,0–15,7.50,2.33,0.09
+8,x2bar,x'in ortalama varyansı,0–15,4.63,2.70,1.16
+9,y2bar,y'nin ortalama varyansı,0–15,5.18,2.38,0.29
+10,xybar,Ortalama x·y korelasyonu,0–15,8.28,2.49,0.09
+11,x2ybr,x·x·y ortalaması,0–15,6.45,2.63,0.29
+12,xy2br,x·y·y ortalaması,0–15,7.93,2.08,0.27
+13,x-ege,Soldan sağa ortalama kenar sayısı,0–15,3.05,2.33,1.06
+14,xegvy,x-ege ile y korelasyonu,0–15,8.34,1.55,0.05
+15,y-ege,Aşağıdan yukarı ortalama kenar sayısı,0–15,3.69,2.57,0.47
+16,yegvx,y-ege ile x korelasyonu,0–15,7.80,1.62,-0.20

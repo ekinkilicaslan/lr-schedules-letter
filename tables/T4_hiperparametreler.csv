@@ -1,0 +1,18 @@
+﻿Hiperparametre,Değer
+Mimari,"16-256-256-26, ReLU, He (Kaiming) normal başlatma, bias = 0"
+Parametre sayısı,76.826
+Kayıp fonksiyonu,Çapraz entropi (softmax)
+Optimizör,"SGD, momentum β = 0,9 (Nesterov değil)"
+Ağırlık azaltma (L2),5·10⁻⁴
+Mini-yığın,128 (110 iterasyon/epok)
+Epok,60 (T = 6.600 iterasyon)
+Tepe öğrenme oranı η_maks,"0,1 (tüm programlarda ortak; LR aralık testiyle seçildi)"
+Basamaklı,"0,5T ve 0,75T'de ×0,1"
+Üstel,"γ = 0,01^(1/T) (son LR = 0,01·η_maks)"
+Kosinüs,"η_min = 0, yeniden başlatma yok"
+CLR (üçgen/üçgen2/üstel aralık),"η_min = 0,1·η_maks, yarım döngü 5 epok; üstel aralıkta γ = 0,1^(1/T)"
+SGDR,"T₀ = 4 epok, T_mult = 2 (4+8+16+32 = 60 epok)"
+Isınma,"Doğrusal, 5 epok (0 → η_maks)"
+Tek döngü (1cycle),"pct_start = 0,3; başlangıç η_maks/25; son η_maks/(25·10⁴); kosinüs geçiş; momentum sabit"
+Model seçimi,Son epok modeli raporlanır (en iyi doğrulama epoğu ek olarak kaydedilir)
+Seed listesi,"[42, 43, 44, 45, 46] (ana deney); ilk 3 seed (duyarlılık, ablasyon)"

@@ -1,0 +1,26 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+~$*
+*.tmp
+
+# Depoda paylaşılmayanlar: yalnızca kod + veri + sonuçlar paylaşılır
+manuscript/
+docs/
+report/
+pipeline_state.md
+*.yedek.docx
+
+# Belge üretim ve iç denetim araçları (çalışmanın parçası değil)
+src/build_docx.py
+src/finalize_docx.ps1
+src/export_pdf.ps1
+src/fill_placeholders.py
+src/integrity_check.py
+src/make_notebook.py
+src/summarize.py
+
+# Ham verinin sıkıştırılmış kopyaları (açılmış hâli depoda)
+data/raw/*.zip
+data/raw/letter_recognition/*.Z

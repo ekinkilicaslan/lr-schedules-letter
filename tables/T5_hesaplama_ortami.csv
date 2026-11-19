@@ -1,0 +1,16 @@
+﻿Bileşen,Değer
+İşlemci (CPU),AMD Ryzen 7 9800X3D (8 çekirdek)
+Bellek (RAM),"61,6 GB"
+GPU,NVIDIA GeForce RTX 4070 Ti SUPER
+CUDA (PyTorch derlemesi),12.6
+İşletim sistemi,Windows 10 (10.0.19045)
+Python,3.13.17
+PyTorch,2.14.1+cu126
+NumPy,2.5.3
+pandas,3.0.6
+scikit-learn,1.9.1
+SciPy,1.18.1
+Matplotlib,3.11.2
+Seaborn,0.13.2
+Determinizm,"torch.use_deterministic_algorithms(True), cuDNN deterministic, CUBLAS_WORKSPACE_CONFIG=:4096:8"
+Ortalama koşu süresi (60 epok),5.3 s

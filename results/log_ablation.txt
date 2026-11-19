@@ -1,0 +1,97 @@
+﻿[lrrange] seed=42 steps=504 min_loss_lr=0.1766
+[lrrange] seed=43 steps=506 min_loss_lr=0.1636
+[lrrange] seed=44 steps=511 min_loss_lr=0.2357
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 0} seed=42 test_acc=0.9695
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 0} seed=43 test_acc=0.9677
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 0} seed=44 test_acc=0.9705
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 1} seed=42 test_acc=0.9700
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 1} seed=43 test_acc=0.9680
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 1} seed=44 test_acc=0.9685
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 3} seed=42 test_acc=0.9712
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 3} seed=43 test_acc=0.9698
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 3} seed=44 test_acc=0.9705
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 5} seed=42 test_acc=0.9718
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 5} seed=43 test_acc=0.9692
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 5} seed=44 test_acc=0.9683
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 10} seed=42 test_acc=0.9710
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 10} seed=43 test_acc=0.9705
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 10} seed=44 test_acc=0.9695
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 20} seed=42 test_acc=0.9695
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 20} seed=43 test_acc=0.9688
+[ablation] warmup_epochs          warmup_cosine    {'warmup_epochs': 20} seed=44 test_acc=0.9683
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 0} seed=42 test_acc=0.9732
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 0} seed=43 test_acc=0.9720
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 0} seed=44 test_acc=0.9725
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 1} seed=42 test_acc=0.9730
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 1} seed=43 test_acc=0.9730
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 1} seed=44 test_acc=0.9752
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 3} seed=42 test_acc=0.9720
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 3} seed=43 test_acc=0.9730
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 3} seed=44 test_acc=0.9728
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 5} seed=42 test_acc=0.9758
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 5} seed=43 test_acc=0.9738
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 5} seed=44 test_acc=0.9742
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 10} seed=42 test_acc=0.9742
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 10} seed=43 test_acc=0.9740
+[ablation] warmup_epochs_eta0.4   warmup_cosine    {'warmup_epochs': 10} seed=44 test_acc=0.9730
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 1} seed=42 test_acc=0.9605
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 1} seed=43 test_acc=0.9623
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 1} seed=44 test_acc=0.9623
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 2.5} seed=42 test_acc=0.9633
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 2.5} seed=43 test_acc=0.9637
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 2.5} seed=44 test_acc=0.9650
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 5} seed=42 test_acc=0.9670
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 5} seed=43 test_acc=0.9685
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 5} seed=44 test_acc=0.9673
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 10} seed=42 test_acc=0.9700
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 10} seed=43 test_acc=0.9690
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 10} seed=44 test_acc=0.9667
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 15} seed=42 test_acc=0.9700
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 15} seed=43 test_acc=0.9692
+[ablation] clr_step_epochs        clr_triangular2  {'step_epochs': 15} seed=44 test_acc=0.9680
+[ablation] clr_base_frac          clr_triangular2  {'base_frac': 0.01} seed=42 test_acc=0.9637
+[ablation] clr_base_frac          clr_triangular2  {'base_frac': 0.01} seed=43 test_acc=0.9650
+[ablation] clr_base_frac          clr_triangular2  {'base_frac': 0.01} seed=44 test_acc=0.9657
+[ablation] clr_base_frac          clr_triangular2  {'base_frac': 0.1} seed=42 test_acc=0.9670
+[ablation] clr_base_frac          clr_triangular2  {'base_frac': 0.1} seed=43 test_acc=0.9685
+[ablation] clr_base_frac          clr_triangular2  {'base_frac': 0.1} seed=44 test_acc=0.9673
+[ablation] clr_base_frac          clr_triangular2  {'base_frac': 0.3} seed=42 test_acc=0.9680
+[ablation] clr_base_frac          clr_triangular2  {'base_frac': 0.3} seed=43 test_acc=0.9677
+[ablation] clr_base_frac          clr_triangular2  {'base_frac': 0.3} seed=44 test_acc=0.9685
+[ablation] onecycle_pct_start     one_cycle        {'pct_start': 0.1} seed=42 test_acc=0.9712
+[ablation] onecycle_pct_start     one_cycle        {'pct_start': 0.1} seed=43 test_acc=0.9708
+[ablation] onecycle_pct_start     one_cycle        {'pct_start': 0.1} seed=44 test_acc=0.9688
+[ablation] onecycle_pct_start     one_cycle        {'pct_start': 0.2} seed=42 test_acc=0.9708
+[ablation] onecycle_pct_start     one_cycle        {'pct_start': 0.2} seed=43 test_acc=0.9690
+[ablation] onecycle_pct_start     one_cycle        {'pct_start': 0.2} seed=44 test_acc=0.9680
+[ablation] onecycle_pct_start     one_cycle        {'pct_start': 0.3} seed=42 test_acc=0.9710
+[ablation] onecycle_pct_start     one_cycle        {'pct_start': 0.3} seed=43 test_acc=0.9692
+[ablation] onecycle_pct_start     one_cycle        {'pct_start': 0.3} seed=44 test_acc=0.9680
+[ablation] onecycle_pct_start     one_cycle        {'pct_start': 0.45} seed=42 test_acc=0.9720
+[ablation] onecycle_pct_start     one_cycle        {'pct_start': 0.45} seed=43 test_acc=0.9685
+[ablation] onecycle_pct_start     one_cycle        {'pct_start': 0.45} seed=44 test_acc=0.9688
+[ablation] adamw                  constant         {} seed=42 test_acc=0.9520
+[ablation] adamw                  constant         {} seed=43 test_acc=0.9708
+[ablation] adamw                  constant         {} seed=44 test_acc=0.9758
+[ablation] adamw                  cosine           {} seed=42 test_acc=0.9702
+[ablation] adamw                  cosine           {} seed=43 test_acc=0.9715
+[ablation] adamw                  cosine           {} seed=44 test_acc=0.9708
+[ablation] adamw                  warmup_cosine    {} seed=42 test_acc=0.9715
+[ablation] adamw                  warmup_cosine    {} seed=43 test_acc=0.9700
+[ablation] adamw                  warmup_cosine    {} seed=44 test_acc=0.9698
+[ablation] adamw                  one_cycle        {} seed=42 test_acc=0.9700
+[ablation] adamw                  one_cycle        {} seed=43 test_acc=0.9680
+[ablation] adamw                  one_cycle        {} seed=44 test_acc=0.9690
+[ablation] epochs20               constant         {} seed=42 test_acc=0.9635
+[ablation] epochs20               constant         {} seed=43 test_acc=0.9557
+[ablation] epochs20               constant         {} seed=44 test_acc=0.9580
+[ablation] epochs20               cosine           {} seed=42 test_acc=0.9647
+[ablation] epochs20               cosine           {} seed=43 test_acc=0.9643
+[ablation] epochs20               cosine           {} seed=44 test_acc=0.9657
+[ablation] epochs20               clr_triangular2  {} seed=42 test_acc=0.9640
+[ablation] epochs20               clr_triangular2  {} seed=43 test_acc=0.9630
+[ablation] epochs20               clr_triangular2  {} seed=44 test_acc=0.9667
+[ablation] epochs20               one_cycle        {} seed=42 test_acc=0.9675
+[ablation] epochs20               one_cycle        {} seed=43 test_acc=0.9640
+[ablation] epochs20               one_cycle        {} seed=44 test_acc=0.9673
+TAMAMLANDI

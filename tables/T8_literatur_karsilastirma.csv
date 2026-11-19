@@ -1,0 +1,21 @@
+﻿Yöntem,Kaynak,Eğitim/test bölünmesi,Test doğruluğu (%)
+Holland tipi uyarlanır sınıflandırıcı,"Frey ve Slate (1991) [Fogarty, 1992]",16.000/4.000,"82,7"
+Backprop MLP (StatLog),Michie vd. (1994),15.000/5.000,"67,3"
+RBF ağı (StatLog),Michie vd. (1994),15.000/5.000,"76,7"
+LVQ (StatLog),Michie vd. (1994),15.000/5.000,"92,1"
+"Tek YSA, 40 gizli birim",Opitz ve Maclin (1999),10-katlı ÇD,"82,0"
+AdaBoost YSA topluluğu,Opitz ve Maclin (1999),10-katlı ÇD,"95,4"
+1-NN,Fogarty (1992),16.000/4.000,"95,7"
+ELM (sigmoid),Zhou (2013),13.333/6.667,"93,51"
+MLP 16-70-50-26,Zhou ve Feng (2017),16.000/4.000,"95,70"
+YSA topluluğu,Frosst ve Hinton (2017),16.000/4.000*,"95,9"
+sNDF (sinirsel karar ormanı),Kontschieder vd. (2015),16.000/4.000,"97,08"
+SNN (SELU),Klambauer vd. (2017),—,"97,26"
+ELM (Gauss çekirdek),Zhou (2013),13.333/6.667,"97,41"
+Bire-bir SVM,Hsu ve Lin (2002),15.000/5.000,"97,98"
+AdaBoost MLP,Schwenk ve Bengio (2000),önceden tanımlı,"98,5"
+Bu çalışma — 1-NN (z-puanı),—,16.000/4.000,95.20
+Bu çalışma — Rastgele orman (500),—,16.000/4.000,96.56 ± 0.12
+Bu çalışma — SVM (RBF),—,16.000/4.000,97.00
+"Bu çalışma — MLP, sabit LR",—,14.000/2.000/4.000,96.20 ± 0.24
+"Bu çalışma — MLP, SGDR",—,14.000/2.000/4.000,97.06 ± 0.13
